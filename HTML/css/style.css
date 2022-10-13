@@ -1,0 +1,75 @@
+body
+{
+    background: rgb(238, 200, 206); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+}
+.container
+{
+    position: relative; 
+    width: 100%;
+    max-height: 1000px;
+    background: white;
+    margin:50px;
+    box-shadow: 0 50px 75px black;
+    border-left: 50px solid white;
+    border-right: 50px solid white; 
+}
+.container .top
+{
+    position: relative; 
+    display: grid; 
+    grid-template-columns: 1fr 2fr;
+    padding: 40px; 
+    padding-bottom: 0; 
+}
+.container .top .imgBx
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+}
+.container .top .imgBx .box
+{
+    position: relative; 
+    width: 150%; 
+    min-width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+.container .top .imgBx .box img
+{
+    position: relative;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+}
+.container .top .profilteText
+{
+    position: relative;
+    padding:40px;
+    display: flex;
+    align-items: center;
+}
+.container .top .profileText h3
+{
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+.container .top .profileText h3 span
+{
+    position: relative;
+    font-size: 0.5em;
+    font-weight: 300;
+    top: -10px;
+}
