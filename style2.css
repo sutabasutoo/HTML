@@ -1,0 +1,138 @@
+::before,*::after{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Spartwell";
+    src: local("Spartwell"),
+      url("/asset/fonts/Spartwell.otf") format("opentype") tech(color-COLRv1), url("/asset/fonts/Spartwell.otf")
+        format("opentype"), url("/asset/fonts/Spartwell.otf") format(".otf");
+  }
+  
+@font-face {
+    font-family: "Breadley Sans";
+    src: local("Breadley Sans"),
+      url("/asset/fonts/BreadleySansRegular.ttf") format("opentype") tech(color-COLRv1), url("/asset/fonts/BreadleySansRegular.ttf")
+        format("opentype"), url("/asset/fonts/BreadleySansRegular.ttf") format(".otf");
+  }
+.navbar{
+    position: static;
+    display:flex;
+    justify-content: space-between;
+}
+#containerLogo{
+    width: 103px;;
+    margin-left: 3%; 
+}
+
+#containerLogo > img{
+    width:100%;
+}
+
+#anchors{
+    width:68%; 
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#connectIcons{
+    display:flex;
+    align-items: center;
+    width:15%;
+    justify-content:center;
+}
+
+#connectIcons #client{
+    height: 35px;
+    margin: 20px;
+}
+
+#anchors a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Breadley Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 41px;
+    text-transform: uppercase;
+    margin-left: 5%;
+}
+
+.bioPos1{
+  z-index: 2;
+  position: absolute;
+  width: 800px;
+  left: 65px;
+  top: 70px;
+}
+.bioPos2{
+  z-index: 2;
+  position: absolute;
+  width: 752px;
+  height: 291px;
+  left: 495px;
+  top: 150px;
+}
+
+.bio{
+  font-family: 'ITC Avant Garde Gothic Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  color: #ffffff;
+}
+
+
+/* portfolio */
+
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: black;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.row .col img{
+    width: 495px;
+    height: 317px;
+    left: 612px;
+    top: 249px;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+h4 {
+    font-size: 3vmin;
+    color: white;
+    margin-top: -240px;
+    margin-bottom: 100px;
+    height: -20px;
+    align-items: center;
+    text-align: center;
+    font-size: 500% ;
+}
+p {
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-top: -90px;
+    margin-bottom: 70px;
+}
+.events .ctn {
+    margin-top: 30px;
+}
